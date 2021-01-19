@@ -1,2 +1,2 @@
 music.setVolume(20)
-music.playMelody("  F C F C ", 130)
+music.playMelody("  D A D D S D G G# A D A D G G# A D A D D A D ", 130)
