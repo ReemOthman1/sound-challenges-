@@ -1,2 +1,2 @@
-music.setVolume(70)
-music.playMelody("g cc c d ee e d c d e c e e f g g f e f g e c c d e e d c d ee c g g cc c d e e e d c d e c", 130)
+music.setVolume(20)
+music.playMelody(" e d c d e e e d d d e g g e d c d e e e e d d e d c ", 130)
