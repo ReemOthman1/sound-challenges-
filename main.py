@@ -1,3 +1,3 @@
 
-music.play_melody("E B C5 A B G A F ", 120)
+music.play_melody("G# D# C# Fm Fm/C A# C A#m ", 120)
    
