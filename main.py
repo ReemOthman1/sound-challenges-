@@ -9,7 +9,8 @@ while True:
         light.set_pixel_color(6,light.rgb(255,255,255,))
         light.set_pixel_color(7,light.rgb(255,255,255,))
         light.set_pixel_color(8,light.rgb(255,255,255,))
+        music.power_down.play_until_done()
     if input.temperature(TemperatureUnit.FAHRENHEIT) < 68:
-        music.power_down.play() 
+        music.power_down.play_until_done()
     if input.temperature(TemperatureUnit.FAHRENHEIT) < 72:   
-        music.power_down.play()
+        music.power_down.play_until_done()

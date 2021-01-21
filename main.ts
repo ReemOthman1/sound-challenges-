@@ -9,14 +9,15 @@ while (true) {
         light.setPixelColor(6, light.rgb(255, 255, 255))
         light.setPixelColor(7, light.rgb(255, 255, 255))
         light.setPixelColor(8, light.rgb(255, 255, 255))
+        music.powerDown.playUntilDone()
     }
     
     if (input.temperature(TemperatureUnit.Fahrenheit) < 68) {
-        music.powerDown.play()
+        music.powerDown.playUntilDone()
     }
     
     if (input.temperature(TemperatureUnit.Fahrenheit) < 72) {
-        music.powerDown.play()
+        music.powerDown.playUntilDone()
     }
     
 }
