@@ -4,5 +4,5 @@ while True:
         music.power_down.play_until_done()
     if input.temperature(TemperatureUnit.FAHRENHEIT) < 68:
         music.power_down.play_until_done()
-    if input.temperature(TemperatureUnit.FAHRENHEIT) < 72:   
+    elif input.temperature(TemperatureUnit.FAHRENHEIT) > 72:   
         music.power_down.play_until_done()
