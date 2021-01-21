@@ -8,6 +8,8 @@ while (true) {
         music.powerDown.playUntilDone()
     } else if (input.temperature(TemperatureUnit.Fahrenheit) > 72) {
         music.powerDown.playUntilDone()
+    } else {
+        music.stopAllSounds() && light.stopAllAnimations()
     }
     
 }

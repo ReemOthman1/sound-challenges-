@@ -6,3 +6,5 @@ while True:
         music.power_down.play_until_done()
     elif input.temperature(TemperatureUnit.FAHRENHEIT) > 72:   
         music.power_down.play_until_done()
+    else:
+        music.stop_all_sounds() and light.stop_all_animations()
