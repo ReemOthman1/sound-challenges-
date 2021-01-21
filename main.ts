@@ -1,7 +1,6 @@
-let strip: light.NeoPixelStrip;
 while (true) {
     if (input.soundLevel() > 130) {
-        strip = light.createNeoPixelStrip(pins.LED)
+        light.rainbowAnimation
         music.powerDown.playUntilDone()
     }
     
