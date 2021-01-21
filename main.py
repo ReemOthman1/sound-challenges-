@@ -1,6 +1,6 @@
 while True:
     if input.sound_level() > 130:  
-        light.show_animation(light.rainbowAnimation, 500)
+        light.theater_chase_animation
         music.power_down.play_until_done()
     if input.temperature(TemperatureUnit.FAHRENHEIT) < 68:
         music.power_down.play_until_done()
@@ -8,3 +8,5 @@ while True:
         music.power_down.play_until_done()
     else:
         music.stop_all_sounds() 
+        
+        

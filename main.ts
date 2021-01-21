@@ -1,6 +1,6 @@
 while (true) {
     if (input.soundLevel() > 130) {
-        light.showAnimation(light.rainbowAnimation, 500)
+        light.theaterChaseAnimation
         music.powerDown.playUntilDone()
     }
     
