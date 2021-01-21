@@ -1,6 +1,6 @@
 while (true) {
     if (input.soundLevel() > 130) {
-        light.theaterChaseAnimation
+        LightAnimation.RunningLights
         music.powerDown.playUntilDone()
     }
     
